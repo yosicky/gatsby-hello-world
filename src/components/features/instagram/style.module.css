@@ -1,0 +1,11 @@
+.instaList {
+  list-style-type: none;
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.instaList li {
+  width: 300px;
+}

@@ -12,5 +12,5 @@
     "skipLibCheck": true,
     "sourceMap": true
   },
-  "include": ["./src/**/*"]
+  "include": ["./src/**/*", "types/index.d.ts"]
 }
