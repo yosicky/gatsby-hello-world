@@ -12,5 +12,16 @@
     "browser": true,
     "es6": true,
     "node": true
-  }
+  },
+  "rules": {
+    "quotes": ["error", "single"]
+  },
+  "overrides": [
+    {
+      "files": ["**/*"],
+      "rules": {
+        "react/prop-types": "off"
+      }
+    }
+  ]
 }
