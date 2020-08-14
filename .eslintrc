@@ -14,7 +14,7 @@
     "node": true
   },
   "rules": {
-    "quotes": ["error", "single"]
+    "quotes": ["error", "single", { "allowTemplateLiterals": true }]
   },
   "overrides": [
     {
