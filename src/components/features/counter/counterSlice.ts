@@ -43,3 +43,7 @@ export const incrementAsync = (amount: number) => (
 export const selectCount = (state: RootState): number => state.counter.value;
 
 export default counterSlice.reducer;
+
+export type TestInterface = {
+  aaaa: number;
+};
