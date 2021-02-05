@@ -5,7 +5,7 @@ const Insta: React.FC = () => {
   return (
     <>
       <div>Instagram</div>
-      2021/02/05更新
+      2021/02/06更新
       <Instagram />
     </>
   );
