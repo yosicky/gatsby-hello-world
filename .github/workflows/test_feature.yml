@@ -3,8 +3,7 @@ name: test feature branch
 on:
   push:
     branches:
-      - 'feature/**'
-
+      - 'feature/**/*'
 jobs:
   build:
     runs-on: ubuntu-latest
