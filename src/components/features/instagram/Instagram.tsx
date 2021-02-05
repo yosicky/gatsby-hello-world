@@ -18,7 +18,7 @@ const Instagram: React.FC = () => {
           </li>
         ))}
       </ul>
-      <a href={`https://instagram.com/${username}`}>See more on Instagram</a>
+      <a href={`https://instagram.com/${username}`}>Instagramで見る</a>
     </>
   );
 };
