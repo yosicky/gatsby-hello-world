@@ -23,8 +23,8 @@ export const useInstagram = () => {
     `
   );
   console.log('=====================', data);
-  return data.allInstaNode.nodes.map((node: any) => ({
-    ...node.localFile.childImageSharp,
+  return data.allInstaNode.nodes.map(node => ({
+    ...node.localFile?.childImageSharp,
     id: node.id,
     caption: node.caption,
     username: node.username,
